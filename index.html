@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi Car Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #audiImage {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        #interactiveFeature {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Audi Car Website</h1>
+    </header>
+
+    <main>
+        <img id="audiImage" src="audi_car.jpg" alt="Audi Car">
+
+        <p>Welcome to the Audi Car Website. Explore the features and performance of our premium vehicles.</p>
+
+        <div id="interactiveFeature">
+            <h2>Experience the Audi Drive:</h2>
+            <p>Click the button to start the engine!</p>
+            <button onclick="startEngine()">Start Engine</button>
+        </div>
+    </main>
+
+    <script>
+        function startEngine() {
+            alert('Vroom! The Audi engine is now running.');
+        }
+    </script>
+</body>
+</html>
+
